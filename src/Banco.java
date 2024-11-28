@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Banco{
+public class Banco {
     private JPanel Banco;
     private JLabel saldoLabel;
     private JLabel lblSaque;
@@ -86,7 +86,7 @@ public class Banco{
         JFrame frame = new JFrame("Sistema Banco");
         frame.setContentPane(new Banco().Banco);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(700,450);
+        frame.setSize(700, 450);
         frame.setVisible(true);
     }
 
